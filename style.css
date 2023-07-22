@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+nav{
+    background-color: #FEF4EA;
+
+    /* For fixed navbar */
+    position: fixed; 
+    z-index: 1;
+    width: 100%;
+}
+.navmain{
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    padding-inline: 20px;
+
+    
+}
+/* .navlink{
+    margin-left: 5rem;
+} */
+.itemnav{
+    display: flex;
+    padding-top: 30px;
+}
+.itemnav li{
+    margin-inline:30px;
+    
+}
+
+.headimg{
+    height: 80vh;
+  position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('women-cover.jpg');
+    background-size: cover;
+}
+.headimg::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+    opacity: 1;
+}
+
+.centertext{
+    color:white;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 1;
+    font-size: 8rem;
+    position: relative;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.headcontent{
+    /* height: 50vh; */
+    background-color: aquamarine;
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    /* background: url(header1.jpg) no-repeat center center/cover; */
+}
+.leftheadcontent{
+    padding: 3rem;
+    width: 45%;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+.rightheadcontent{
+    margin-left: 30rem;
+    width:25%;
+    max-width: 25%;
+}
+#background-video{
+    height: 100%;
+    width: 400px;
+    margin-right: 0;
+    border-radius: 15px;
+}
+
+.whatfem{
+    padding: 3rem;
+    margin: 5rem;
+    background-color: #f1d6bc;
+    /* border-radius: 1rem; */
+}
+
+footer{
+    background-color: #f8ede1;
+    padding: 1.1rem;
+}
+.footer{
+    padding-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
